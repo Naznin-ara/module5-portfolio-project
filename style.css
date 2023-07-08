@@ -132,3 +132,54 @@ i{
 /* banner end */
 /* about section start */
 
+.about-container{
+    width: 1140px;
+    height: 550px;
+    margin:150px auto;
+    background-color: #FFF8F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-title{
+    color: var(--dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+/* padding-top: 35px; */
+
+}
+.about-discription{
+    text-align:center;
+    font-size:18px;
+    font-weight: 400;
+    color:#757575;
+    display:flex;
+    flex-direction: column;
+    padding:40px 150px;
+}
+.about-info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+.info{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.info-title{
+    color:#757575;
+}
+.info-detail{
+    color:#474747;
+}
+/* about section end */
