@@ -4,6 +4,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 nav{
+    width:auto;
     background-color:#FFF8F3;
     display:flex;
     justify-content: space-between;
@@ -22,9 +23,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-  
 }
-
 nav ul{
     display: flex;
     gap:40px;
@@ -57,7 +56,7 @@ nav ul li a{
 /* banner section start */
 .banner-container{
     background-image: url("images/header_bg.png"),url(images/developer.png);
-    width:100%;
+    width:auto;
     height:750px;
     background-position: bottom right, top left;
     background-repeat: no-repeat;
@@ -65,7 +64,6 @@ nav ul li a{
     justify-content: space-around;
     align-items: center;
     padding:45px 45px 0px 125px;
-    /* margin-top:30px; */
     background-color: #FFF8F3;
 }
 .banner-content{
@@ -81,7 +79,6 @@ nav ul li a{
     font-weight: 600;
     margin-bottom: 10px;
     color: #474747;
-
 }
 .banner-heading{
     color:#181818;
@@ -96,19 +93,13 @@ nav ul li a{
     color:#757575;
     margin-bottom: 25px;
 }
-
- 
 .img1{
     width: 584px;
     height: 676px;
     padding-right:30px;
     margin-bottom:-67px;
     display: inline-block;
-
-
-
 }
-
 .banner-btn{
     display: flex;
     gap:30px;
@@ -143,15 +134,10 @@ i{
     align-items: center;
 }
 .about-title{
-    color: #181818;
+ color: #181818;
 text-align: center;
-font-family: Open Sans;
 font-size: 35px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
-/* padding-top: 35px; */
-
 }
 .about-discription{
     text-align:center;
@@ -213,29 +199,21 @@ line-height: normal;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    /* padding:20px 30px; */
-  
 }
 .icon{
     width:44px;
     height:44px;
-    /* margin-top:10px;
-    margin-left:10px;
-    margin-bottom: 10px; */
 }
 .skill-heading{
     color: #181818;
 text-align: center;
-font-family: Open Sans;
 font-size: 20px;
-font-style: normal;
 font-weight: 700;
 /* margin-bottom: 10px; */
 }
 .skill-dis{
 color: #757575;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 28px;
 display:flex;
@@ -245,16 +223,15 @@ flex-direction: column;
 /* what i do section end */
 /* footer start */
 .footer-container{
+    width:auto;
     margin: 100px auto;
 }
 .footer-title{
-    color: #181818;
+color: #181818;
 text-align: center;
-font-family: Open Sans;
 font-size: 25px;
 font-weight: 700;
 margin-bottom:300px;
-
 }
 .summary{
     display:flex;
@@ -262,11 +239,8 @@ margin-bottom:300px;
     justify-content: space-between;
     align-items: center;
     margin:20px auto;
-    width:60%;
+    width:80%;
     height:400px;
-    /* gap:50px; */
-    
-    
 }
 .education{
     width:40%;
@@ -281,38 +255,27 @@ margin-bottom:300px;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 15px;
-    
-
 }
 .h2{
     color: #474747;
-font-family: Open Sans;
 font-size: 25px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 margin-bottom: 10px;
 }
 .edu-sub{
     color: #757575;
-font-family: Open Sans;
 font-size: 20px;
-font-style: normal;
 font-weight: 600;
-line-height: normal;
 margin-bottom: 20px;
 }
 .edu-dis{
     color: #757575;
-font-family: Open Sans;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 28px;
 display: flex;
 width: 511px;
 flex-direction: column;
-flex-shrink: 0;
 margin-bottom: 25px;
 }
 .edu{
@@ -334,7 +297,6 @@ margin-bottom: 25px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #FFF8F3;
 }
 .contact-div{
     width:50%;
@@ -398,4 +360,154 @@ textarea{
     margin-left:30px;
     margin-top:18px;
     color:#474747;
+}
+@media screen and (max-width:1050px) and (min-width:400px) {
+    .last-container{
+        flex-direction: column;
+        width:auto;
+    }
+    .contact-div{
+        width:auto;
+        align-items: center;
+    }
+    form{
+        width:auto;
+    }
+    ::placeholder{
+        font-size: 16px;
+       padding-left: 10px;
+    }
+    .btn{
+        width:120px;
+        height: 50px;
+    }
+    .footer-container{
+        width:100%;
+    }
+    .summary{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin:10px;
+        width:70%;
+        height:auto;
+    }
+    .education{
+        width:50%;
+        margin-left: 30px;
+      }
+      .edu-dis{
+        width:50%;
+      }
+    .footer-title{
+       font-size: 20px;
+        font-weight: 700;
+        margin-bottom:30px;
+        }
+    .button{
+            text-align: center;
+          margin:10px auto;
+          width:130px;
+           height:100px;
+           font-size: 15px;
+        } 
+    .next-container{
+            width: auto;
+            height:auto;
+            margin:20px 0px;
+           }
+    .about-container{
+            width:80%;
+            height: auto;
+           }
+    .about-discription{
+            width:60%;
+            padding:26px 20px;
+            margin-bottom: 20px;
+           }
+    .about-info{
+        gap:10px;
+        flex-direction: column;
+    }
+    .skill-section{
+            width:auto;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            gap:30px;
+        }
+    .skill{
+            width:300px;
+            height:377px;
+          box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.06);
+        }
+        nav{
+            width:auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:0px;
+            padding:0px;
+        }
+        .nav-header{
+            font-size:30px;
+            
+        }
+        .banner-container{
+            width:auto;
+            background-image: none;
+            height:auto;
+            margin:0px auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px ;
+           
+        }
+        .banner-content{
+            width:auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+           
+        }
+        .banner-title{
+            font-size: 45px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            
+        }
+        .banner-heading{
+            width:30%;
+            font-size: 35px;
+            font-weight: 700;
+            margin-bottom:10px;
+        }
+        .banner-discription{
+            width:30%;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
+        .img1{
+            width: 300px;
+            height: 376px;
+            margin-right: 10%;
+            margin-bottom:0px;
+            
+        }
+        .banner-btn{
+            font-size: 14px;
+            gap:5px;
+        }
+        .btn1{
+            width:120px;
+            font-size: 14px;
+        }
+
+    
 }
